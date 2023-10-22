@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut-icon" href="21b0a176-46c3-4609-86a5-8788ee5c2303.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acceuil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Digital Space</title>
+</head>
+  <body style="margin: 10px;">
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light" style=" position: fixed;top: 0;left: 0;width: 100%; z-index: 9999;background-image: linear-gradient( to bottom, #181a5d , #b9b5ed);border-bottom: solid bisque 5px ;">
+        <div class="container-fluid">
+          <!-- Logo ou nom de votre site -->
+          <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" width="60px" height="60px" style="border:0;box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2)" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade;"></a>
+      
+          <!-- Bouton d'hamburger pour la version mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Liens de navigation -->
+          <div class="collapse navbar-collapse row" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item col-3" id="A">
+                <a class="nav-link" href="exem.html" style="color: aliceblue;">
+                  <h4><i class="bi bi-house" ></i></h4> Accueil
+                </a>
+              <li class="nav-item col-3" id="A">
+                <a class="nav-link" href="compétance.html" style="color: aliceblue;">
+                  <h4><i class="bi bi-award" ></i></h4> Services
+                </a>
+              </li>
+              <li class="nav-item col-3" id="A">
+                <a class="nav-link" href="contact.html" style="color: aliceblue;">
+                  <h4><i class="bi bi-envelope" ></i></h4> Contacts
+                </a>
+              </li>
+              <li class="nav-item col-3" id="A">
+                <a class="nav-link" href="#" style="color: aliceblue;">
+                  <h4><i class="bi bi-question" ></i></h4> Aide
+                </a>
+              </li>
+              <li class="nav-item col-3" id="A">
+                <a class="nav-link" href="#" onclick='changeColor()' style="color: aliceblue;">
+                  <h4><i class="bi bi-mask"   ></i></h4> Mode
+                </a>
+              </li>
+            </ul>          
+            <!-- Barre de recherche -->
+            <form class="d-flex col-4" style="left: 200px;">
+              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Rechercher">
+              <button class="btn btn-outline-success" type="submit">Rechercher</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script>
+        function changeColor() {
+        var body = document.getElementsByTagName("body")[0];
+        var textColor = "";
+        var bgColor = "";
+        if (body.style.backgroundColor === "black") {
+          textColor = "black";
+          bgColor = "white";
+        } else {
+          textColor = "white";
+          bgColor = "black";
+        }
+        body.style.color = textColor;
+        body.style.backgroundColor = bgColor;
+        }
+      </script>
+    </header>
+      <main>
+        <img src="Digital1.jpg" ,  style="height: 450px; width: 100%; margin: auto;" alt="">
+        <div class="row" >
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control" style="background-color: orange;"><a target="_blank" href="https://www.w3schools.com/html/default.asp">Html</a></button></div>
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control bg-primary"><a target="_blank" href="https://www.w3schools.com/css/default.asp">Css</a></button></div>
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control bg-dark"><a target="_blank" href="https://www.w3schools.com/js/default.asp">JavaScript</a></button></div>
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control bg-light"><a target="_blank" href="https://www.w3schools.com/sql/default.asp">MySQL</a></button></div>
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control bg-primary"><a target="_blank" href="https://www.w3schools.com/php/default.asp">PHP</a></button></div>
+          <div class="col-2 , form-control bg-light"><button type="submit" , class="form-control bg-success" ><a target="_blank" href="https://www.w3schools.com/python/default.asp">Python</a></button></div>
+          </div>
+        <br><br>
+        <center><img src="logo.png" alt="Logo de l'entreprise" width="180px" style="border-radius: 50%; box-shadow: 0px 0px 20px #333;"><h2>Digital Space</h2> </center>   
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <hr>
+            <center><button type="submit" class="btn ,btn-form-control bg-success" ><a href="#inscription">Nous Contacter!</a></button></center>
+          </div>
+          <div class="col-3"></div>
+        </div> 
+        <br><br><br>
+          <br><br>
+        <center><marquee><strong><em>Digital Space</em></strong> est une societé Burkinabé constituer des meilleurs développeurs ayant une expertises  très valorisés dans le domaine de la technologie !</marquee></center>
+        <br>
+        <hr>
+      </main>
+      <footer>
+        <div style="background-image: linear-gradient( to bottom, #b9b5ed, #181a5d); color: black; border-radius: 10px; width: 100%;">
+          <strong style="left: 30px;"><h1>Digital Space</h1></strong>
+          <div class="row" style="display: flex;justify-content: center;align-items: center;">
+            <div class="col-5" style="padding-left: 30px;">
+              <hr>
+              <h2>Adresse</h2>
+              <p><strong>Digital space</strong> est située à l'adresse suivante :</p>
+              <p>123 Ouaga 2000<br />20000 Ouagadougou Burkina Faso</p>
+              <hr>
+              <h2>Contacts</h2>
+              <div class="row">
+                  <div class="col-4">
+                  <i class="bi bi-telephone-fill"></i><p>+226 71 64 65 84 </p>
+                  </div>
+                  <div class="col-4">
+                      <i class="bi bi-whatsapp"></i><br>
+                      <a href="https://wa.me/message/ANOAO7KFYIGDJ1" target="_blank">Contacter nous par WhatsApp</a>
+                  </div>
+                  <div class="col-4">
+                      <i class="bi bi-envelope"></i><a href="#">djuny.alain@gmail.com </a>
+                  </div>
+              </div>
+              <br><br>
+            </div>
+            <div class="col-1" ></div>
+            <div class="col-5" >
+              <form action="Action.php" method="post" style="border-radius: 10px; padding: 20px; box-shadow: 0px 0px 4px #333; border-radius: 15px;"id="inscription">
+                <center><h5>S'abonner à la newsletter</h5></center>
+                    <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6"><hr></div>
+                    <div class="col-3"></div>
+                    </div>
+                    <label for="">
+                      <h5>Prénom</h5><sup>(requis)</sup><input type="text" name="prenom" placeholder="Prénom" class="form-control">
+                    </label>
+                    <br>
+                    <label for="">
+                      <h5>E-mail</h5><sup>(requis)</sup><input type="email" name="email" placeholder="Voutre e-mail" class="form-control"> 
+                    </label>
+                    <br>
+                    <label for="">
+                      <sup><em>Besoin d'un servise ?</em></sup>
+                      <h5> <u> Votre Message :</u></h5><textarea name="password" id="Text" cols="60" rows="5" class="form-control"></textarea>
+                    </label>
+                <center><button type="submit" name="Valider" class="btn btn-form-control bg-success">Valider</button></center>
+              </form>
+            </div>
+          </div>
+          <br>
+        </div>
+      </footer>
+  </body>
+</html>
